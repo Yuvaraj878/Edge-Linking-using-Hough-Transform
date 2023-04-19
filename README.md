@@ -82,7 +82,5 @@ plt.imshow(edges1)
 ### Display the result of Hough transform
 ![](./3rd.png)
 
-
-
 ## Result:
 Thus the program is written with python and OpenCV to detect lines using Hough transform. 
