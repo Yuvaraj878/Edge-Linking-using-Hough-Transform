@@ -26,9 +26,10 @@ Using the HoughLinesP(),detect line co-ordinates for every points in the images.
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
-image1=cv2.imread('car.jpg',0)
+image1=cv2.imread('images.jpg',0)
 img= cv2.GaussianBlur(image1,(3,3),0)
 plt.imshow(img)
+plt.axis("off")
 ```
 
 
